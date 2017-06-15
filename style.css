@@ -12,6 +12,8 @@
 
 #body{
   text-align: center;
+  background-image: url('blueback.jpg');
+
 
   }
 
@@ -27,6 +29,7 @@ border-color: blue;
 font: Lucida;
 
 }
+
 
 
 canvas {

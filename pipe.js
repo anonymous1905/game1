@@ -11,14 +11,14 @@ this.hits = function(bird) {
   if (bird.y < this.top || bird.y > height -this.bottom){
       if (bird.x > this.x && bird.x < this.x + this.w){
          this.highlight = true;
-         score = score - 35;
+         score = score - 0.7;
       console.log(score);
         return true;
       }
   }
 
   else if (bird.y > this.top || bird.y < height -this.bottom){
-    score = score + 0.15;
+    score = score + 0.01;
     console.log(score);
     $("#scoreBox").html("<p>" + 'Your bitcoin is worth' + "</p>" + "<br>" + score + "<p>" + "You are a Bitcoinaire !" + "</p>");
     return false;
