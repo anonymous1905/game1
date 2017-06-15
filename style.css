@@ -1,0 +1,34 @@
+
+#Swagger {
+  height:200px;
+  width: 56.5%;
+  border-style: ridge;
+  border-color: silver;
+  margin-left: 150px;
+
+}
+
+
+
+#body{
+  text-align: center;
+
+  }
+
+#boxScore {
+width: 300px;
+length: 400px;
+color: black;
+border:solid;
+border-radius: 100%;
+border-style: ridge;
+font-style: italic;
+border-color: blue;
+font: Lucida;
+
+}
+
+
+canvas {
+ background-color: red;
+}
