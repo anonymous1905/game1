@@ -42,6 +42,7 @@ function draw() {
 
 document.addEventListener('touchstart', touchScreenHandler);
 function touchScreenHandler(e) {
+  e.preventDefault();
   bird.up();
 }
 
