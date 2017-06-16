@@ -11,7 +11,7 @@ this.hits = function(bird) {
   if (bird.y < this.top || bird.y > height -this.bottom){
       if (bird.x > this.x && bird.x < this.x + this.w){
          this.highlight = true;
-         score = score - 0.7;
+         score = score - 1.12;
       console.log(score);
         return true;
       }
@@ -20,14 +20,25 @@ this.hits = function(bird) {
   else if (bird.y > this.top || bird.y < height -this.bottom){
     score = score + 0.01;
     console.log(score);
-    $("#scoreBox").html("<p>" + 'Your Bitcoin is worth' + "</p>" + "<br>" + score + "<p>" + "You are a Bitcoinaire !" + "</p>" +  'Up to what value can you bring ');
+    colorChanger();
+    $("#scoreValue").html(score);
     return false;
   }
   this.highlight = false;
 
 return false;
-
 };
+function colorChanger (){
+  if (score > 0) {
+    $('#scoreValue').css('color', 'green');
+  }
+  else {
+    $('#scoreValue').css('color', 'red');
+  }
+
+}
+
+
 
 
   this.show = function () {
