@@ -38,12 +38,13 @@ function draw() {
 
 
    }
+}
 
 document.addEventListener('touchstart', touchScreenHandler);
 function touchScreenHandler(e) {
   bird.up();
 }
-}
+
 function keyPressed() {
   if (key == ' ') {
     bird.up();
