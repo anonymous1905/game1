@@ -20,7 +20,7 @@ this.hits = function(bird) {
   else if (bird.y > this.top || bird.y < height -this.bottom){
     score = score + 0.01;
     console.log(score);
-    $("#scoreBox").html("<p>" + 'Your Bitcoin is worth' + "</p>" + "<br>" + score + "<p>" + "You are a Bitcoinaire !" + "</p>" +  '1 BTC = 2355$ can you do better ?');
+    $("#scoreBox").html("<p>" + 'Your Bitcoin is worth' + "</p>" + "<br>" + score + "<p>" + "You are a Bitcoinaire !" + "</p>" +  'Up to what value can you bring ');
     return false;
   }
   this.highlight = false;

@@ -39,7 +39,10 @@ function draw() {
 
    }
 
-document.addEventListener('touchstart', keyPressed);
+document.addEventListener('touchstart', touchScreenHandler);
+function touchScreenHandler(e) {
+  bird.up();
+}
 }
 function keyPressed() {
   if (key == ' ') {

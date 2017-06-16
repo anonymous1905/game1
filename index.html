@@ -15,6 +15,9 @@
 <br>
 
   <p id="title" > THE FLAPPY BITCOIN </p>
+  <div class="kissmyass">
+<div class="btcwdgt-news" bw-cur="usd"></div>
+</div
 
     <p id="instructions">  ___________________________________________________
                           | USE THE SPACE BAR TO INCREASE THE BITCOIN's VALUE |
@@ -51,6 +54,16 @@
   </body>
 
 
+  <script>
+    (function(b,i,t,C,O,I,N) {
+      window.addEventListener('load',function() {
+        if(b.getElementById(C))return;
+        I=b.createElement(i),N=b.getElementsByTagName(i)[0];
+        I.src=t;I.id=C;N.parentNode.insertBefore(I, N);
+      },false)
+    })(document,'script','https://widgets.bitcoin.com/widget.js','btcwdgt');
+  </script>
+
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
@@ -62,6 +75,7 @@
 <script src = "pipe.js"></script>
 <script src = "sketch.js"></script>
 <script src = "square.js"></script>
+
 
 
   </body>
