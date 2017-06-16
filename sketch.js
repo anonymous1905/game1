@@ -39,7 +39,7 @@ function draw() {
 
    }
 
-
+document.addEventListener('touchstart', keyPressed);
 }
 function keyPressed() {
   if (key == ' ') {

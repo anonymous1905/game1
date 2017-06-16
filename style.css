@@ -11,6 +11,10 @@
 
 }
 
+#wake {
+  display: inline-block;
+}
+
 #title {
   font-size: 55px;
   color: gold;
@@ -82,7 +86,7 @@ canvas {
 
 #instructions {
 color: gold;
-border: solid;
+/*border: solid;*/
 border-color: gold;
 
 
